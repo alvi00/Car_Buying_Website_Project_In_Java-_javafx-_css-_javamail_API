@@ -1,0 +1,316 @@
+.button {
+    -fx-background-color: linear-gradient(to bottom, #3498db, #2980b9);
+    -fx-background-radius: 5;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+}
+
+
+
+.button2_white {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+        -fx-border-color: #0ef;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 10px 30px;
+    -fx-effect: dropshadow(gaussian, #fff, 0, 0, 0, 0); /* Apply a white glow by default */
+    
+}
+
+.button2_white:hover {
+    -fx-effect: dropshadow(gaussian, #0ef, 10, 0, 0, 0),
+    			motionblur(45, 10), /* Motion Blur Effect */
+                boxblur(5, 3); /* Box Blur Effect */ /* Apply a blue glow on hover */
+    -fx-scale-x: 1.1; /* Increase the scale on hover */
+    -fx-scale-y: 1.1;
+}
+
+.button2_white:pressed {
+    -fx-effect: dropshadow(gaussian, #0ef, 5, 0, 0, 0);
+}
+
+
+.button3_red {
+    -fx-background-color: red;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+        -fx-border-color: #0ef;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 10px 30px;
+    -fx-effect: dropshadow(gaussian, #fff, 0, 0, 0, 0); /* Apply a white glow by default */
+    
+}
+.button3_red:hover {
+    -fx-effect: dropshadow(gaussian, #0ef, 10, 0, 0, 0),
+    			motionblur(45, 10), /* Motion Blur Effect */
+                boxblur(5, 3); /* Box Blur Effect */ /* Apply a blue glow on hover */
+    -fx-scale-x: 1.1; /* Increase the scale on hover */
+    -fx-scale-y: 1.1;
+}
+
+.button3_red:pressed {
+    -fx-effect: dropshadow(gaussian, #0ef, 5, 0, 0, 0);
+}
+
+
+.button4_black{
+    -fx-background-color: black;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+        -fx-border-color: #0ef;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 10px 30px;
+    -fx-effect: dropshadow(gaussian, #fff, 0, 0, 0, 0); /* Apply a white glow by default */
+    
+}
+.button4_black:hover {
+    -fx-effect: dropshadow(gaussian, #0ef, 10, 0, 0, 0),
+    			motionblur(45, 10), /* Motion Blur Effect */
+                boxblur(5, 3); /* Box Blur Effect */ /* Apply a blue glow on hover */
+    -fx-scale-x: 1.1; /* Increase the scale on hover */
+    -fx-scale-y: 1.1;
+}
+
+.button4_black:pressed {
+    -fx-effect: dropshadow(gaussian, #0ef, 5, 0, 0, 0);
+}
+
+
+
+.button1_yellow {
+    -fx-background-color: yellow;
+    -fx-background-radius: 10;
+    -fx-text-fill: white;
+    -fx-border-color: #0ef;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 10px 30px;
+    -fx-effect: dropshadow(gaussian, #fff, 0, 0, 0, 0); /* Apply a white glow by default */
+    
+}
+
+
+.button1_yellow:hover {
+    -fx-effect: dropshadow(gaussian, #0ef, 10, 0, 0, 0),
+    			motionblur(45, 10), /* Motion Blur Effect */
+                boxblur(5, 3); /* Box Blur Effect */ /* Apply a blue glow on hover */
+    -fx-scale-x: 1.1; /* Increase the scale on hover */
+    -fx-scale-y: 1.1;
+}
+
+.button1_yellow:pressed {
+    -fx-effect: dropshadow(gaussian, #0ef, 5, 0, 0, 0);
+}
+
+
+/* styles.css */
+.button-style_first_page_button1 {
+    -fx-font-size: 1.5em;
+    -fx-text-fill: #3498db;
+    -fx-background-color: rgba(0, 0, 255, 0.15); /* Light blue with 15% opacity */
+    -fx-border-color: #0ef;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 10px 30px;
+    -fx-effect: dropshadow(gaussian, #fff, 0, 0, 0, 0); /* Apply a white glow by default */
+}
+
+.button-style_first_page_button1:hover {
+    -fx-text-fill: #3498db;
+    -fx-effect: dropshadow(gaussian, #0ef, 10, 0, 0, 0),
+    			motionblur(45, 10), /* Motion Blur Effect */
+                boxblur(5, 3); /* Box Blur Effect */ /* Apply a blue glow on hover */
+    -fx-scale-x: 1.1; /* Increase the scale on hover */
+    -fx-scale-y: 1.1;
+}
+
+.button-style_first_page_button1:pressed {
+    -fx-effect: dropshadow(gaussian, #0ef, 5, 0, 0, 0);
+}
+
+
+
+/* styles.css */
+.cool-label {
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-font-size: 20px;
+    -fx-text-fill: #3498db; /* Change the text color to your preference */
+    -fx-background-color: #ecf0f1; /* Change the background color to your preference */
+    -fx-padding: 10px 15px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-background-insets: 0;
+    -fx-border-width: 1;
+    -fx-border-color: #3498db; /* Change the border color to your preference */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 10, 0.0 , 0 , 3 );
+}
+
+.cool-label:hover {
+    -fx-text-fill: #3498db;
+    -fx-effect: dropshadow(gaussian, #0ef, 10, 0, 0, 0),
+    			motionblur(45, 10), /* Motion Blur Effect */
+                boxblur(5, 3); /* Box Blur Effect */ /* Apply a blue glow on hover */
+    -fx-scale-x: 1.1; /* Increase the scale on hover */
+    -fx-scale-y: 1.1;
+}
+
+
+.label-style {
+    -fx-font-family: "911 Porscha";
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-text-fill:#3498db; /* Text color (Blue) */
+    -fx-effect: dropshadow(three-pass-box, #ff00ff, 10, 0, 0, 0);
+    -fx-padding: 10px 15px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-background-insets: 0;
+    -fx-border-width: 1;
+    -fx-border-color: #3498db; /* Change the border color to your preference */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 10, 0.0 , 0 , 3 );
+}
+
+.label-style:hover {
+    -fx-text-fill: #3498db; /* Text color on hover (Red) */
+        -fx-effect: dropshadow(gaussian, #0ef, 10, 0, 0, 0),
+    			motionblur(45, 10), /* Motion Blur Effect */
+                boxblur(5, 3); /* Hover effect */
+       -fx-scale-x: 1.1; /* Increase the scale on hover */
+    -fx-scale-y: 1.1;/* Rotate text on hover */
+}
+
+
+.label-style_100 {
+    -fx-font-family: "911 Porscha";
+    -fx-font-weight: bold;
+    -fx-font-size: 40px;
+    -fx-text-fill:#fff; /* Text color (Blue) */
+    -fx-effect: dropshadow(three-pass-box, #ff00ff, 10, 0, 0, 0);
+    -fx-padding: 10px 15px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-background-insets: 0;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 10, 0.0 , 0 , 3 );
+}
+
+.label-style_100:hover {
+    -fx-text-fill: #3498db; /* Text color on hover (Red) */
+        -fx-effect: dropshadow(gaussian, #0ef, 10, 0, 0, 0),
+    			motionblur(45, 10), /* Motion Blur Effect */
+                boxblur(5, 3); /* Hover effect */
+       -fx-scale-x: 1.1; /* Increase the scale on hover */
+    -fx-scale-y: 1.1;/* Rotate text on hover */
+}
+
+
+/* styles.css */
+.button-style_first_page_button100_new {
+    -fx-font-size: 1.5em;
+    -fx-text-fill: #fff;
+    -fx-background-color: rgba(0, 0, 255, 0.15); /* Light blue with 15% opacity */
+    -fx-border-color: #0ef;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 10px 30px;
+    -fx-effect: dropshadow(gaussian, #fff, 0, 0, 0, 0); /* Apply a white glow by default */
+}
+
+.button-style_first_page_button100_new:hover {
+    -fx-text-fill: #3498db;
+    -fx-effect: dropshadow(gaussian, #0ef, 10, 0, 0, 0),
+    			motionblur(45, 10), /* Motion Blur Effect */
+                boxblur(5, 3); /* Box Blur Effect */ /* Apply a blue glow on hover */
+    -fx-scale-x: 1.1; /* Increase the scale on hover */
+    -fx-scale-y: 1.1;
+}
+
+.button-style_first_page_button100_new:pressed {
+    -fx-effect: dropshadow(gaussian, #0ef, 5, 0, 0, 0);
+}
+
+
+.label-style_100_main_page:hover {
+    -fx-text-fill: #3498db;
+    -fx-effect: dropshadow(gaussian, #0ef, 10, 0, 0, 0),
+    			motionblur(45, 10), /* Motion Blur Effect */
+                boxblur(5, 3); /* Box Blur Effect */ /* Apply a blue glow on hover */
+    -fx-scale-x: 1.1; /* Increase the scale on hover */
+    -fx-scale-y: 1.1;
+}
+
+
+.label-style_100_main_page {
+    -fx-font-family: "911 Porscha";
+    -fx-font-weight: bold;
+    -fx-font-size: 50px;
+    -fx-text-fill:#3498db; /* Text color (Blue) */
+    -fx-effect: dropshadow(three-pass-box, #ff00ff, 10, 0, 0, 0);
+    -fx-padding: 10px 15px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-background-insets: 0;
+    -fx-border-width: 1;
+    -fx-border-color: #3498db; /* Change the border color to your preference */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 10, 0.0 , 0 , 3 );
+}
+
+
+
+
+.label-style_car_Surprise {
+    -fx-font-family: "Black Ops One";
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-text-fill:#000000; /* Text color (Blue) */
+    -fx-effect: dropshadow(three-pass-box, #ff00ff, 10, 0, 0, 0);
+    -fx-padding: 10px 15px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-background-insets: 0;
+    -fx-border-width: 1;
+    -fx-border-color: #3498db; /* Change the border color to your preference */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 10, 0.0 , 0 , 3 );
+}
+
+.label-style_car_Surprise:hover {
+    -fx-text-fill: #3498db; /* Text color on hover (Red) */
+        -fx-effect: dropshadow(gaussian, #0ef, 10, 0, 0, 0),
+    			motionblur(45, 10), /* Motion Blur Effect */
+                boxblur(5, 3); /* Hover effect */
+       -fx-scale-x: 1.1; /* Increase the scale on hover */
+    -fx-scale-y: 1.1;/* Rotate text on hover */
+}
+
+
+
+.label-style_car_info {
+    -fx-font-family: "Black Ops One";
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-text-fill:#fff; /* Text color (Blue) */
+    -fx-effect: dropshadow(three-pass-box, #ff00ff, 10, 0, 0, 0);
+    -fx-padding: 10px 15px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-background-insets: 0;
+    -fx-border-width: 1;
+    -fx-border-color: #3498db; /* Change the border color to your preference */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 10, 0.0 , 0 , 3 );
+}
+
+.label-style_car_info:hover {
+    -fx-text-fill: #3498db; /* Text color on hover (Red) */
+        -fx-effect: dropshadow(gaussian, #0ef, 10, 0, 0, 0),
+    			motionblur(45, 10), /* Motion Blur Effect */
+                boxblur(5, 3); /* Hover effect */
+       -fx-scale-x: 1.1; /* Increase the scale on hover */
+    -fx-scale-y: 1.1;/* Rotate text on hover */
+}

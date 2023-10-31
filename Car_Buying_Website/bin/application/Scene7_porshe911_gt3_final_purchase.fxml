@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller_Scene7_porshe_911_gt3_final_purchase">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="750.0" prefWidth="1499.0">
+         <children>
+            <ImageView fx:id="myimage" fitHeight="758.0" fitWidth="1737.0" layoutX="-117.0" layoutY="-7.0" onMouseEntered="#seeyourcar" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@porshe_911_gt3_final_purchase_photo1.png" />
+               </image></ImageView>
+            <Button layoutX="684.0" layoutY="676.0" mnemonicParsing="false" onAction="#gotoscene8_car_buying_information" text="Payment">
+               <font>
+                  <Font name="Arial Black" size="23.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

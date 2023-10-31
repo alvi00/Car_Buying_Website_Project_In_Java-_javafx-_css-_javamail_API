@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller_Scene5_porshe911">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="754.0" prefWidth="1502.0">
+         <children>
+            <ImageView fitHeight="750.0" fitWidth="1507.0" layoutX="-4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@white_bg-01.png" />
+               </image>
+            </ImageView>
+            <MenuBar layoutX="-3.0" prefHeight="26.0" prefWidth="1502.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <ImageView fx:id="myimage1" fitHeight="262.0" fitWidth="463.0" layoutX="18.0" layoutY="88.0" onMouseEntered="#photodisplay2" onMouseExited="#photodisplay1" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@porshe_911_photo1.jpg" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="myimage2" fitHeight="262.0" fitWidth="463.0" layoutX="520.0" layoutY="88.0" onMouseEntered="#photodisplay4" onMouseExited="#photodisplay3" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@porshe_911_gt3_photo3.jpg" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="myimage3" fitHeight="262.0" fitWidth="463.0" layoutX="1007.0" layoutY="89.0" onMouseEntered="#photodisplay6" onMouseExited="#photodisplay5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@porshe_911_gt3_photo5.jpg" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+            <Button layoutX="151.0" layoutY="288.0" mnemonicParsing="false" onAction="#gotoscene6_porshe911_gt3" styleClass="button-style_first_page_button100_new" stylesheets="@application.css" text="911 GT3">
+               <font>
+                  <Font name="Black Ops One Regular" size="21.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Button>
+            <Button layoutX="588.0" layoutY="283.0" mnemonicParsing="false" onAction="#gotoscene6_porshe911_gt3_touring_package" prefHeight="51.0" prefWidth="338.0" styleClass="button-style_first_page_button100_new" stylesheets="@application.css" text="911 GT3 TOURING PACKAGE">
+               <font>
+                  <Font name="Black Ops One Regular" size="18.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Button>
+            <Button layoutX="1143.0" layoutY="286.0" mnemonicParsing="false" onAction="#gotoscene6_porshe911_gt3_rs_" prefHeight="51.0" prefWidth="180.0" styleClass="button-style_first_page_button100_new" stylesheets="@application.css" text="911 GT3 RS">
+               <font>
+                  <Font name="Black Ops One Regular" size="19.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Button>
+            <Button layoutX="699.0" layoutY="671.0" mnemonicParsing="false" onAction="#gotoscene4_porshe911" styleClass="button-style_first_page_button100_new" stylesheets="@application.css" text="Back">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="36.0" layoutY="106.0" styleClass="label-style" stylesheets="@application.css" text="\$185,850">
+               <font>
+                  <Font name="Black Ops One Regular" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="541.0" layoutY="106.0" styleClass="label-style" stylesheets="@application.css" text="\$186,250">
+               <font>
+                  <Font name="Black Ops One Regular" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="1035.0" layoutY="106.0" styleClass="label-style" stylesheets="@application.css" text="\$244,650">
+               <font>
+                  <Font name="Black Ops One Regular" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="myimage4" fitHeight="254.0" fitWidth="531.0" layoutX="51.0" layoutY="402.0" onMouseEntered="#photodisplay8" onMouseExited="#photodisplay7" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@porshche_911_targa_4_white_mainimage.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="168.0" layoutY="584.0" mnemonicParsing="false" onAction="#gotoscene6_porshe911_targa_4" styleClass="button-style_first_page_button100_new" stylesheets="@application.css" text="911 TARGA 4">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Label layoutX="66.0" layoutY="418.0" styleClass="label-style" stylesheets="@application.css" text="\$136,150" />
+            <ImageView fx:id="myimage5" fitHeight="250.0" fitWidth="468.0" layoutX="518.0" layoutY="405.0" onMouseEntered="#photodisplay10" onMouseExited="#photodisplay9" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@porshche_911_targa_4s_white_mainimage.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="538.0" layoutY="426.0" styleClass="label-style" stylesheets="@application.css" text="\$153,050" />
+            <Button layoutX="648.0" layoutY="582.0" mnemonicParsing="false" onAction="#gotoscene6_porshe911_targa_4s" styleClass="button-style_first_page_button100_new" stylesheets="@application.css" text="911 TARGA 4S">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <ImageView fx:id="myimage6" fitHeight="249.0" fitWidth="467.0" layoutX="1005.0" layoutY="406.0" onMouseEntered="#photodisplay12" onMouseExited="#photodisplay11" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@porshche_911_targa_4_gts_white_mainimage.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="1030.0" layoutY="435.0" styleClass="label-style" stylesheets="@application.css" text="\$172,650" />
+            <Button layoutX="1121.0" layoutY="585.0" mnemonicParsing="false" onAction="#gotoscene6_porshe911_targa_4gts" styleClass="button-style_first_page_button100_new" stylesheets="@application.css" text="911 TARGA 4 GTS">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller_sign_up_page">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="748.0" prefWidth="1498.0">
+         <children>
+            <ImageView fitHeight="753.0" fitWidth="1505.0" layoutX="-7.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@scene_loge_in_page_bg-01-01.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="1120.0" layoutY="180.0" styleClass="cool-label" stylesheets="@application.css" text="Sign Up" />
+            <TextField fx:id="sign_up_field" layoutX="966.0" layoutY="245.0" prefHeight="48.0" prefWidth="422.0" promptText="GIVE YOUR NAME HERE">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+            <PasswordField fx:id="sign_up_pass_field" layoutX="965.0" layoutY="381.0" prefHeight="38.0" prefWidth="421.0" promptText="GIVE YOUR PASSWORD HERE">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </PasswordField>
+            <Button fx:id="submit_button" layoutX="1029.0" layoutY="492.0" mnemonicParsing="false" onAction="#signUp" styleClass="button-style_first_page_button1" stylesheets="@application.css" text="Submit" />
+            <Label fx:id="sign_up_label" layoutX="1088.0" layoutY="109.0" styleClass="cool-label" stylesheets="@application.css" text="Give Your Infos" />
+            <Button layoutX="1195.0" layoutY="492.0" mnemonicParsing="false" onAction="#goto_scene1" prefHeight="53.0" prefWidth="131.0" styleClass="button-style_first_page_button1" stylesheets="@application.css" text="Back" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

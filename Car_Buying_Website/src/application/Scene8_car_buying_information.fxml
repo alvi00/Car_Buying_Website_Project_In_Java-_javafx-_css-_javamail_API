@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller_Scene8_car_buying_information">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="749.0" prefWidth="1501.0">
+         <children>
+            <ImageView fitHeight="745.0" fitWidth="1500.0" layoutX="-2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@buying_info_bg-01.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="mylabel" layoutX="413.0" layoutY="50.0" styleClass="label-style_100" stylesheets="@application.css" text="Summary Of Your Car">
+               <font>
+                  <Font name="Black Ops One Regular" size="50.0" />
+               </font>
+            </Label>
+            <MenuBar layoutX="-7.0" layoutY="1.0" prefHeight="26.0" prefWidth="1511.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Separator layoutX="-3.0" layoutY="114.0" prefHeight="8.0" prefWidth="1499.0" />
+            <Label fx:id="information_label" layoutX="97.0" layoutY="141.0" prefHeight="62.0" prefWidth="394.0" styleClass="label-style_car_info" stylesheets="@application.css" text="Give Your Information">
+               <font>
+                  <Font name="Black Ops One Regular" size="40.0" />
+               </font>
+            </Label>
+            <TextField fx:id="name_textfield" layoutX="413.0" layoutY="242.0" prefHeight="61.0" prefWidth="206.0" promptText="Enter your name">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </TextField>
+            <Label alignment="CENTER_RIGHT" layoutX="28.0" layoutY="246.0" styleClass="label-style_car_info" stylesheets="@application.css" text="Your Name">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER_RIGHT" layoutX="18.0" layoutY="331.0" styleClass="label-style_car_info" stylesheets="@application.css" text="Phone Number">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="phone_textfield" layoutX="414.0" layoutY="329.0" prefHeight="58.0" prefWidth="207.0" promptText="Enter your phone number">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="23.0" layoutY="409.0" styleClass="label-style_car_info" stylesheets="@application.css" text="Country Name">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="country_textfield" layoutX="414.0" layoutY="411.0" prefHeight="58.0" prefWidth="207.0" promptText="Enter your country name">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="19.0" layoutY="487.0" styleClass="label-style_car_info" stylesheets="@application.css" text="ZIP/Postal Code">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="zip_postal_textfield" layoutX="414.0" layoutY="492.0" prefHeight="54.0" prefWidth="208.0" promptText="Enter your zip/postal code">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="14.0" layoutY="570.0" styleClass="label-style_car_info" stylesheets="@application.css" text="Credit Card Number">
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="credir_card_textfield" layoutX="413.0" layoutY="571.0" prefHeight="60.0" prefWidth="210.0" promptText="Enter your credit card" styleClass="label-style">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </TextField>
+            <Label layoutX="664.0" layoutY="235.0" prefHeight="62.0" prefWidth="414.0" styleClass="label-style_car_info" stylesheets="@application.css" text="Delivery and other Fee" textFill="#fffdfd">
+               <font>
+                  <Font name="Arial Black" size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="delivery_label" alignment="CENTER" layoutX="1080.0" layoutY="234.0" prefHeight="36.0" prefWidth="415.0" styleClass="label-style_100" stylesheets="@application.css" text="see">
+               <font>
+                  <Font name="Black Ops One Regular" size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="794.0" layoutY="303.0" styleClass="label-style_car_info" stylesheets="@application.css" text="Gas Guzzler Tax" textFill="#fff8f8">
+               <font>
+                  <Font name="Arial Black" size="40.0" />
+               </font>
+            </Label>
+            <Label fx:id="tax_label" alignment="CENTER" layoutX="1126.0" layoutY="319.0" prefHeight="36.0" prefWidth="328.0" styleClass="label-style_100" stylesheets="@application.css" text="see">
+               <font>
+                  <Font name="Black Ops One Regular" size="27.0" />
+               </font>
+            </Label>
+            <Separator layoutX="759.0" layoutY="408.0" prefHeight="22.0" prefWidth="710.0" />
+            <Button fx:id="submit_button" layoutX="1198.0" layoutY="661.0" mnemonicParsing="false" onAction="#gotoscene9_car_buying_information" styleClass="button-style_first_page_button100_new" stylesheets="@application.css" text="Submit Information">
+               <font>
+                  <Font name="Arial Black" size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </Button>
+            <Label layoutX="804.0" layoutY="154.0" styleClass="label-style_100" stylesheets="@application.css" text="Extra Charges">
+               <font>
+                  <Font name="Black Ops One Regular" size="39.0" />
+               </font>
+            </Label>
+            <Label layoutX="764.0" layoutY="424.0" styleClass="label-style_car_info" stylesheets="@application.css" text="Total Price" textFill="#fff8f8">
+               <font>
+                  <Font name="Arial Black" size="47.0" />
+               </font>
+            </Label>
+            <Label fx:id="total_label" alignment="CENTER" layoutX="1056.0" layoutY="427.0" prefHeight="55.0" prefWidth="417.0" styleClass="label-style_100" stylesheets="@application.css" text="see">
+               <font>
+                  <Font name="Black Ops One Regular" size="27.0" />
+               </font>
+            </Label>
+            <Button layoutX="607.0" layoutY="657.0" mnemonicParsing="false" onAction="#extra_charges_info" styleClass="button-style_first_page_button100_new" stylesheets="@application.css" text="SEE EXTRA CHARGES">
+               <font>
+                  <Font name="Arial Black" size="28.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </Button>
+            <Label layoutX="686.0" layoutY="541.0" styleClass="label-style_car_info" stylesheets="@application.css" text="E-mail : ">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <TextField fx:id="email_textfield" layoutX="883.0" layoutY="544.0" prefHeight="56.0" prefWidth="354.0" promptText="example@gmail.com">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </TextField>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

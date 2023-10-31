@@ -1,0 +1,66 @@
++-----------------------------------------------------+------------------------+
+|                        Motor                        |                        |
++-----------------------------------------------------+------------------------+
+| Bore                                                | 102.0 mm               |
+| Stroke                                              | 81.5 mm                |
+| Displacement                                        | 3,996 cc               |
+| Max. power                                          | 518 hp                 |
+| Max. power at rpm                                   | 8,500 rpm              |
+| Max. engine speed                                   | 9,000 rpm              |
+| Max. torque                                         | 342 lb-ft              |
+| Max. torque at rpm                                 | 6,300 rpm              |
+| Max. power per liter                               | 129.5 hp/l             |
++-----------------------------------------------------+------------------------+
+|                   Fuel Consumption                   |                        |
++-----------------------------------------------------+------------------------+
+| EPA Disclaimer                                      | EPA estimates not yet  |
+|                                                     | available.             |
++-----------------------------------------------------+------------------------+
+|                        Body                         |                        |
++-----------------------------------------------------+------------------------+
+| Length                                              | 180.0 in               |
+| Width w/ mirrors folded                             | 74.8 in                |
+| Width                                               | 79.8 in                |
+| Height                                              | 52.1 in                |
+| Wheelbase                                           | 96.7 in                |
+| Turning circle diameter                             | 34.5 ft                |
+| Curb weight                                         | 3,268 lb               |
+| Gross Vehicle Weight Rating (GVWR)                 | 3,957 lb               |
+| Maximum load                                       | 689 lb                 |
++-----------------------------------------------------+------------------------+
+|                   Capacities                        |                        |
++-----------------------------------------------------+------------------------+
+| Fuel tank                                          | 16.9 gal               |
++-----------------------------------------------------+------------------------+
+|                   Performance                        |                        |
++-----------------------------------------------------+------------------------+
+| Top track speed (with summer tires)                 | 184 mph                |
+| 0 - 60 mph                                         | 3.0 s                  |
+| 1/4 mile with Sport Chrono Package                  | 10.9 s                 |
++-----------------------------------------------------+------------------------+
+|              Terrain Features                        |                        |
++-----------------------------------------------------+------------------------+
+| Approach / departure angle (steel suspension)       | 6.2 - 9.8 °            |
+| Ramp break-over angle (steel suspension)            | 10.6 °                 |
+| Max. ground clearance (steel suspension)            | 3.9 in                 |
++-----------------------------------------------------+------------------------+
+|            Service and Warranty                      |                        |
++-----------------------------------------------------+------------------------+
+| Limited vehicle warranty                            | 4 years/50,000 miles    |
+|                                                     | (whichever comes first) |
+|                                                     | including 24-hour       |
+|                                                     | roadside assistance     |
+|                                                     | program                |
+| Main service interval                                | Porsche Cars North      |
+|                                                     | America offers service |
+|                                                     | and maintenance         |
+|                                                     | packages in a variety  |
+|                                                     | of terms to match your  |
+|                                                     | intended usage. Please  |
+|                                                     | see your authorized     |
+|                                                     | Porsche Dealer for     |
+|                                                     | details and availability. |
+| Limited paint warranty                               | 4 years/50,000 miles    |
+|                                                     | (whichever comes first) |
+| Limited corrosion warranty                           | 12 years/unlimited miles |
++-----------------------------------------------------+------------------------+
