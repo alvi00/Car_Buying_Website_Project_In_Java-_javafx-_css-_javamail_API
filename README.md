@@ -1,13 +1,15 @@
-<h1 align="center">Hi 👋, I'm Ahmad Fahmid</h5>
-<h5 align=>This Project is basically for my academic purpose</h5>
-<h5 align=>Here I have made a Car buying Website and tried to make it quite similar to the Porsche Website</h5>
-<h5 align=>I have used java,JavaFX,CSS,JavaMail API for this project</h5>
+<h1 align="center">Hi 👋, I'm Ahmad Fahmid and my team partner Fahim Foysal</h5>
+<h5 align=>This Project is basically for our academic purpose</h5>
+<h5>This project's backend part was done by me and the frontend was done by my partner</h5>
+<h5 align=>Here we have made a Car buying Website and tried to make it quite similar to the Porsche Website</h5>
+<h5 align=>we have used java,JavaFX,CSS,JavaMail API for this project</h5>
 <h5 align=>Thanks a lot, This is pre- release or beta version.</h5>
 <h5>We are having some problems with fonts and car specs and some heap space-related issues with the runnable jar file.</h5>
 <h5>For the code, it runs pretty smooth, but a heap storage-related problem is there</h1>
 <h5>Feel free to contribute</h5>
 <h5>Don't forget to give your feedback mail </h5>
 <h5>ahmadfahmid59@gmail.com</h5>
+
 
 ![image](https://github.com/alvi00/Car_Buying_Website_Project_In_Java/assets/112432485/e0eb0989-cb41-4cc2-89ba-45c052fa4ccd)
 
